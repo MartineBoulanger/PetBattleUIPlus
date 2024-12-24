@@ -1,0 +1,11 @@
+## Interface: 110070
+## Title: Pet Battle UI Plus
+## Author: FwenTheHunter
+## Version: 1.0.0
+## Notes: Enhances the Pet Battle UI with customizations and improvements.
+## SavedVariables: PetBattleUIPlusDB
+
+Main.lua
+Modules/NameResizer.lua
+Modules/FrameVisibility.lua
+SlashCommands.lua
