@@ -7,6 +7,7 @@ local function InitializeSavedVariables()
   if not PetBattleUIPlusDB then
     PetBattleUIPlusDB = {
       fontSize = 10, -- Default font size for pet names
+      hideBags = true, -- Default: Bags are hidden during pet battles
     }
   end
 end
@@ -26,6 +27,9 @@ frame:SetScript("OnEvent", function(self, event, loadedAddon)
     if addon.FrameVisibility then
       addon.FrameVisibility.HideFramesForPetBattle()
     end
+    if addon.UIElements then
+      addon.UIElements.HideElementsForPetBattle()
+    end
     if addon.NameResizer and addon.NameResizer.ResizePetNames then
       addon.NameResizer.ResizePetNames(PetBattleUIPlusDB.fontSize)
     end
@@ -33,6 +37,9 @@ frame:SetScript("OnEvent", function(self, event, loadedAddon)
   elseif event == "PET_BATTLE_CLOSE" then
     if addon.FrameVisibility then
       addon.FrameVisibility.ShowFramesAfterPetBattle()
+    end
+    if addon.UIElements then
+      addon.UIElements.ShowElementsAfterPetBattle()
     end
 
   end
