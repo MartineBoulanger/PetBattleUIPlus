@@ -1,3 +1,5 @@
+# PetBattleUIPlus
+
 This very simple addon has several options that can be set by the player for customizing and/or improving their pet battle UI.
 
 **NOTE:** This addon is still new, and only a few options are available for now, but in future more options might be added.
