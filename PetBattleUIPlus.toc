@@ -1,7 +1,9 @@
 ## Interface: 110100
+## Version: 1.1.1
+## Category: Battle Pets
+## IconTexture: Interface\Addons\PetBattleUIPlus\media\PetBattleUIPlus-icon.tga
 ## Title: Pet Battle UI Plus
 ## Author: FwenTheHunter
-## Version: 1.1.1
 ## Notes: Enhances the Pet Battle UI with customizations and improvements.
 ## SavedVariables: PetBattleUIPlusDB
 
