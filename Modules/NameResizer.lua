@@ -1,4 +1,3 @@
--- Modules/NameResizer.lua
 local addonName, addon = ...
 addon.NameResizer = {}
 

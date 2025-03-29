@@ -1,4 +1,3 @@
--- Modules/UIElements.lua
 local addonName, addon = ...
 addon.UIElements = {}
 
