@@ -1,10 +1,21 @@
 ## Interface: 110105
 ## Version: 1.2.0
-## Category: Battle Pets
-## IconTexture: Interface\Addons\PetBattleUIPlus\media\PetBattleUIPlus-icon.tga
 ## Title: Pet Battle UI Plus
 ## Author: FwenTheHunter
 ## Notes: Enhances the Pet Battle UI with customizations and improvements.
+## X-Category: Pet Battles
+## IconTexture: Interface\Addons\PetBattleUIPlus\media\PetBattleUIPlus-icon.tga
+## Category-enUS: Pet Battles
+## Category-deDE: Haustierkämpfe
+## Category-esES: Duelos de mascotas
+## Category-esMX: Duelos de mascotas
+## Category-frFR: Combats de mascottes
+## Category-itIT: Mostra allenatori di mascotte
+## Category-koKR: 애완동물 대전
+## Category-ptBR: Batalhas de mascotes
+## Category-ruRU: Битвы питомцев
+## Category-zhCN: 宠物对战
+## Category-zhTW: 寵物對戰
 ## SavedVariables: PetBattleUIPlusDB
 
 Main.lua
