@@ -1,8 +1,10 @@
-## Interface: 110107
-## Version: 1.2.1
+## Interface: 110200
+## Version: 1.2.2
 ## Title: Pet Battle UI Plus
 ## Author: FwenTheHunter
 ## Notes: Enhances the Pet Battle UI with customizations and improvements.
+## X-Curse-Project-ID: 1164873
+## X-License: GNUGPLv3
 ## X-Category: Pet Battles
 ## IconTexture: Interface\Addons\PetBattleUIPlus\media\PetBattleUIPlus-icon.tga
 ## Category-enUS: Pet Battles
