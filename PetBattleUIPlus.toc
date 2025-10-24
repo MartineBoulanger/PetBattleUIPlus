@@ -1,5 +1,5 @@
-## Interface: 110200
-## Version: 1.2.2
+## Interface: 110205
+## Version: 1.2.3
 ## Title: Pet Battle UI Plus
 ## Author: FwenTheHunter
 ## Notes: Enhances the Pet Battle UI with customizations and improvements.
