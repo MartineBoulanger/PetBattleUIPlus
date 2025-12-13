@@ -1,5 +1,5 @@
-## Interface: 110205
-## Version: 1.2.3
+## Interface: 110207
+## Version: 1.3.0
 ## Title: Pet Battle UI Plus
 ## Author: FwenTheHunter
 ## Notes: Enhances the Pet Battle UI with customizations and improvements.
@@ -20,9 +20,13 @@
 ## Category-zhTW: 寵物對戰
 ## SavedVariables: PetBattleUIPlusDB
 
-Main.lua
+Utils.lua
+
 Modules/NameResizer.lua
 Modules/FrameVisibility.lua
 Modules/UIElements.lua
 Modules/CooldownViewer.lua
+
 SlashCommands.lua
+
+Main.lua

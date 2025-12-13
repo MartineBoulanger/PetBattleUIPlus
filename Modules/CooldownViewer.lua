@@ -1,5 +1,5 @@
 -- Modules/CooldownViewer.lua
-local addonName, addon = ...
+local _, addon = ...
 addon.CooldownViewer = {}
 
 -- Frame references
@@ -45,12 +45,10 @@ function addon.CooldownViewer.HideForPetBattle()
                 frame:Hide()
             end
         end
-        print("|cff00F300Pet Battle UI Plus: Class Cooldowns frames hidden during pet battle.|r")
     end
 end
 
 --- SHOW COOLDOWN FRAMES AFTER PET BATTLE ---
 function addon.CooldownViewer.ShowAfterPetBattle()
     RestoreCooldownFrameStates()
-    print("|cff00F300Pet Battle UI Plus: Class Cooldowns frames restored after pet battle.|r")
 end
